@@ -85,7 +85,7 @@ This app will ask the following details about the customer for prediction:
  - Gender
  
  ## Conclusion
- Although the model has good precision score, down the line it can be improved by:
+ Although the model has good AUC-ROC score, down the line it can be improved by:
   - Adding more data
   - Feature Selection.
  
