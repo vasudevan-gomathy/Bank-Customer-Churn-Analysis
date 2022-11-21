@@ -74,6 +74,7 @@ This is an user friendly and easily customizable app that predicts whether the c
 
 ### Page 1: Home page
 
+![image](https://user-images.githubusercontent.com/85822284/203061498-01de7a92-aad5-4bcb-8b54-279b53dde175.png)
 
 
 This page contains the detail about the App with accuracy score.
@@ -97,6 +98,9 @@ This app will ask the following details about the customer for prediction:
  - Gender
  
 ### Page 3: Report
+
+![image](https://user-images.githubusercontent.com/85822284/203061403-fb748047-957d-4076-b084-c97734cd69cf.png)
+
 
 This page generates report which can be download as csv with piechart containing the percentage of customer churned.
  
