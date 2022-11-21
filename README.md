@@ -1,4 +1,4 @@
-# BankCustomer_Churn_Predictor
+# Bank-Customer-Churn-Analysis
 
 ## Introduction
 We aim to accomplish the following for this study.
@@ -43,9 +43,10 @@ Different machine learning models have been used to find out the best model out 
  - Random forest Classifier
  - Gradient Boosting Classifier
  
-Out of these, precision score has been taken to finalise **Random Forest Classifier** as the best model which has a precision of about **87%**. Comparison of precision score for all of these models:
+Out of these, AUC-ROC(Area Under The Curve - Receiver Operating Characteristics) has been taken to finalise **Random Forest Classifier** as the best model which has a score of about **85%**. Comparison of AUC-ROC score for all of these models:
 
-![image](https://user-images.githubusercontent.com/85822284/199739326-19f25083-259a-461b-8a71-709ac0532295.png)
+![image](https://user-images.githubusercontent.com/85822284/203001006-f6bf139f-0317-441d-93d2-9302c18aa805.png)
+
 
 ## Feature Importance
 Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable.
