@@ -69,9 +69,21 @@ Feature importance refers to techniques that assign a score to input features ba
 
 
 ## Churn Predictor App:
+
+This is an user friendly and easily customizable app that predicts whether the customer is going to churn or not with the given set of details about the customer. This app is created with the help of **Streamlit**.
+
+### Page 1: Home page
+
+
+
+This page contains the detail about the App with accuracy score.
+
+### Page 2: Predictor
+
+This page can individually predict whether the customer is going to churn or not with the given set of details about the customer.
+
 ![Untitled](https://user-images.githubusercontent.com/85822284/199740901-87c9652d-f552-4afd-b17f-bae2d4d2806d.png)
 
-This is an user friendly and easily customizable app that predicts whether the customer is going to churn or not with the given set of details about the customer. This app is created with the help of Streamlit.
 This app will ask the following details about the customer for prediction:
  - Credit Score
  - Age
@@ -83,6 +95,10 @@ This app will ask the following details about the customer for prediction:
  - Estimated Salary
  - Location
  - Gender
+ 
+### Page 3: Report
+
+This page generates report which can be download as csv with piechart containing the percentage of customer churned.
  
  ## Conclusion
  Although the model has good AUC-ROC score, down the line it can be improved by:
