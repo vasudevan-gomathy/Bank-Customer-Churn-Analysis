@@ -1,6 +1,7 @@
 # Bank-Customer-Churn-Analysis
 
-## Introduction
+## Summary
+
 We aim to accomplish the following for this study.
 
 1) Identify and visualize which factors contribute to customer churn:
@@ -10,9 +11,33 @@ We aim to accomplish the following for this study.
  - Classify if a customer is going to churn or not.
  - Preferably and based on model performance, choose a model that predicts the churn to make it easier for customer service to target low hanging fruits in their efforts to prevent churn.
 
-3) Build an app to predict whether a customer going to churn or not depeneding on a set of details.
+3) Build an app to predict whether a customer going to churn or not depending on a set of details.
+
+## Problem Statement
+
+### Impact of Customer Churn
+
+ - The probability of selling to an existing customer is 60-70 percent. The probability of selling to a new prospect is 5-20 percent.
+ 
+ - Eighty percent of your future profits will come from just 20 percent of your existing customers.
+ 
+ - Sixty-five percent of a company’s business comes from existing customers.
+ 
+ - A typical American business will lose 15 percent of its customers each year.
+ 
+ - The average repeat customer spends 67 percent more in months 31-36 of their relationship with a business than they do in months 0-6.
+ 
+ - A five percent increase in customer retention can lead to an increase in profits of between 25 and 95 percent.
+ 
+ - Lowering your customer churn rate by five percent can increase your profitability by 25 to 125 percent.
+ 
+ - Repeat customers spend 33 percent more than new customers.
+ 
+ - A 10 percent increase in customer retention levels results in a 30 percent increase in the value of the company. 
+
 
 ## About the Data
+
 The dataset has been obtained from kaggle. The following are the list of features in the dataset:
  - CreditScore          int64
  - Geography           object
@@ -105,7 +130,7 @@ This app will ask the following details about the customer for prediction:
 This page generates report which can be download as csv with piechart containing the percentage of customer churned.
  
  ## Conclusion
- Although the model has good AUC-ROC score, down the line it can be improved by:
+ Although the model has good AUC-ROC score of 85%, down the line it can be improved by:
   - Adding more data
   - Feature Selection.
  
